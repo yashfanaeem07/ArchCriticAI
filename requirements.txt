@@ -1,0 +1,23 @@
+# ArchCriticAI dependencies (pinned to the versions verified in this environment).
+# Install with:  pip install -r requirements.txt
+
+# --- Core: LLM + config ---
+anthropic==0.105.2            # Phase 1/2 Claude client (core/llm.py)
+python-dotenv==1.2.2          # load .env (config.py)
+pydantic==2.13.4              # structured-output schemas (core/schemas.py)
+
+# --- Phase 3: RAG knowledge base ---
+chromadb==1.5.9               # persistent vector store (knowledge/chroma.py, store.py)
+sentence-transformers==5.5.1  # local embeddings, all-MiniLM-L6-v2 (knowledge/embeddings.py)
+pypdf==6.12.2                 # read .pdf principle documents (knowledge/loaders.py)
+
+# --- Image feature pipeline ---
+numpy==2.2.6                  # CV feature extraction (core/image_score_pipeline.py)
+pillow==12.2.0                # image loading (PIL)
+
+# --- UI / app ---
+streamlit==1.58.0             # web app (app.py, ui/)
+pandas==2.3.3                 # tabular display in the UI
+
+# --- Dev / test ---
+pytest==9.0.3                 # test suite (tests/)

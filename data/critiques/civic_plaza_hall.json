@@ -1,0 +1,58 @@
+{
+  "image_file": "civic_plaza_hall.png",
+  "project_title": "civic_plaza_hall",
+  "keywords": [
+    "civic hierarchy",
+    "central atrium",
+    "daylight",
+    "spatial order"
+  ],
+  "numeric_features": {
+    "open_space_ratio": 0.943,
+    "brightness_mean": 0.632,
+    "white_ratio": 0.24,
+    "dark_ratio": 0.0,
+    "edge_density": 0.015,
+    "edge_ratio": 0.057,
+    "circulation_hints": 70,
+    "vertical_lines": 60,
+    "horizontal_lines": 10,
+    "colour_variety": 0.18,
+    "saturation": 0.094,
+    "symmetry": 0.986,
+    "aspect_ratio": 1.5,
+    "dominant_colour": "#9eae96",
+    "resolution": "900x600"
+  },
+  "feature_notes": [
+    "Open-space ratio 0.94; moderately articulated surfaces (strong-edge ratio 0.057).",
+    "Bright/glazed (brightness 0.63, white ratio 0.24) - transparency/daylight cue.",
+    "Circulation hints: 70 dominant lines (60 vertical, 10 horizontal).",
+    "Material palette: colour variety 0.180, saturation 0.09, dominant #9eae96.",
+    "Composition: symmetry 0.99 (duality cue), framing 1.5:1."
+  ],
+  "category_scores": {
+    "concept_originality": 7,
+    "spatial_hierarchy": 8,
+    "transparency_light": 5,
+    "materiality_detailing": 4,
+    "alignment_keywords": 5
+  },
+  "overall_score": 5.8,
+  "category_reasoning": {
+    "concept_originality": "Visual-complexity proxy (edge_ratio 0.057, colour_variety 0.180, 70 lines).",
+    "spatial_hierarchy": "Circulation/articulation: 70 dominant lines, strong-edge ratio 0.057.",
+    "transparency_light": "Brightness 0.63 and white ratio 0.24 as daylight/transparency proxies.",
+    "materiality_detailing": "Colour variety 0.180, saturation 0.09, detail edges 0.057.",
+    "alignment_keywords": "Keyword expression 0.59 (image vs keywords) blended with RAG similarity 0.44."
+  },
+  "retrieved_principles": [
+    "circulation_and_spatial_order.md: # Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a pe",
+    "transparency_light_and_daylight.md: it is asserted rather than designed: a rendering full of glass that promises openness but shows no graded modulation, no shading logic, and no thought for glare, heat, or privacy. Daylight fails when ",
+    "materiality_and_tectonics.md: the richness of the proposed surfaces. ## Common failures of materiality Materiality fails when it is decorative rather than tectonic — finishes chosen for image with no relationship to how the buildi",
+    "transparency_light_and_daylight.md: # Transparency, Light, and Daylight ## Daylight as a primary material Architects speak of light as a material because, like brick or timber, it can be shaped, directed, and given mass. Top light falli",
+    "parti_and_concept.md: # Parti and Concept-Driven Design ## The parti as organising idea The *parti* (from the French *prendre parti*, \"to make a decision\") is the central organising idea of a building — the single diagram "
+  ],
+  "rag_query": "civic hierarchy, central atrium, daylight, spatial order Open-space ratio 0.94; moderately articulated surfaces (strong-edge ratio 0.057). Bright/glazed (brightness 0.63, white ratio 0.24) - transparency/daylight cue. Circulation hints: 70 dominant lines (60 vertical, 10 horizontal). Material palette: colour variety 0.180, saturation 0.09, dominant #9eae96. Composition: symmetry 0.99 (duality cue), framing 1.5:1.",
+  "analysis_method": "python-feature-pipeline (CV heuristics; no vision model)"
+}

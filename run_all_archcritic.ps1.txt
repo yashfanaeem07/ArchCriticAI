@@ -1,0 +1,53 @@
+# Set project root
+$projectRoot = "C:\Users\wqrsl\ArchCriticAI"
+cd $projectRoot
+
+# Set folder with images
+$imageFolder = "$projectRoot\data\images"
+
+# Set folder to save JSON output
+$outputFolder = "$projectRoot\data\critiques"
+if (!(Test-Path $outputFolder)) {
+    New-Item -ItemType Directory -Path $outputFolder
+}
+
+# Keywords for images (adjust per image or make dynamic)
+$keywords = @("Transparency", "Duality", "Circulation")
+
+# Loop through all images
+Get-ChildItem $imageFolder -Include *.png, *.jpg, *.jpeg | ForEach-Object {
+
+    $imgPath = $_.FullName
+    $imgName = $_.BaseName
+
+    Write-Host "Processing image: $imgName"
+
+    # Step 1: Extract numeric features via pipeline
+    $jsonOutput = python "$projectRoot\archcritic\core\image_score_pipeline.py" $imgPath $keywords | Out-String
+
+    # Step 2: Save JSON locally
+    $jsonFile = "$outputFolder\$imgName.json"
+    $jsonOutput | Set-Content -Path $jsonFile
+
+    Write-Host "Saved JSON output to $jsonFile"
+
+    # Step 3: Call Claude CLI for narrative generation
+    $claudePrompt = @"
+Analyse this architecture image using JSON scoring data:
+
+$jsonOutput
+
+Generate a structured critique with narrative justification.
+Return JSON with:
+- category scores
+- overall score
+- justification
+"@
+
+    # Pipe prompt to Claude CLI (assuming Claude CLI supports stdin)
+    echo $claudePrompt | claude > "$outputFolder\$imgName.narrative.json"
+
+    Write-Host "Claude narrative saved to $outputFolder\$imgName.narrative.json"
+}
+
+Write-Host "All images processed!"

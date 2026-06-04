@@ -1,0 +1,58 @@
+{
+  "image_file": "hillside_pavilion.png",
+  "project_title": "hillside_pavilion",
+  "keywords": [
+    "circulation spine",
+    "terraced massing",
+    "hillside",
+    "concrete and glass"
+  ],
+  "numeric_features": {
+    "open_space_ratio": 0.964,
+    "brightness_mean": 0.617,
+    "white_ratio": 0.0,
+    "dark_ratio": 0.0,
+    "edge_density": 0.006,
+    "edge_ratio": 0.032,
+    "circulation_hints": 76,
+    "vertical_lines": 48,
+    "horizontal_lines": 28,
+    "colour_variety": 0.166,
+    "saturation": 0.069,
+    "symmetry": 0.895,
+    "aspect_ratio": 1.5,
+    "dominant_colour": "#a59f93",
+    "resolution": "900x600"
+  },
+  "feature_notes": [
+    "Open-space ratio 0.96; moderately articulated surfaces (strong-edge ratio 0.032).",
+    "Bright/glazed (brightness 0.62, white ratio 0.00) - transparency/daylight cue.",
+    "Circulation hints: 76 dominant lines (48 vertical, 28 horizontal).",
+    "Material palette: colour variety 0.166, saturation 0.07, dominant #a59f93.",
+    "Composition: symmetry 0.89 (duality cue), framing 1.5:1."
+  ],
+  "category_scores": {
+    "concept_originality": 6,
+    "spatial_hierarchy": 7,
+    "transparency_light": 4,
+    "materiality_detailing": 4,
+    "alignment_keywords": 5
+  },
+  "overall_score": 5.2,
+  "category_reasoning": {
+    "concept_originality": "Visual-complexity proxy (edge_ratio 0.032, colour_variety 0.166, 76 lines).",
+    "spatial_hierarchy": "Circulation/articulation: 76 dominant lines, strong-edge ratio 0.032.",
+    "transparency_light": "Brightness 0.62 and white ratio 0.00 as daylight/transparency proxies.",
+    "materiality_detailing": "Colour variety 0.166, saturation 0.07, detail edges 0.032.",
+    "alignment_keywords": "Keyword expression 0.46 (image vs keywords) blended with RAG similarity 0.47."
+  },
+  "retrieved_principles": [
+    "materiality_and_tectonics.md: the richness of the proposed surfaces. ## Common failures of materiality Materiality fails when it is decorative rather than tectonic — finishes chosen for image with no relationship to how the buildi",
+    "circulation_and_spatial_order.md: # Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a pe",
+    "materiality_and_tectonics.md: # Materiality, Detailing, and Tectonics ## Tectonics: the art of making visible how a building stands Tectonics is the expression of construction — the way a building shows how it is made and how it s",
+    "site_context_and_threshold.md: # Site, Context, and the Threshold ## Reading the site before drawing No building is conceived in a vacuum; the site is the first author of the design. Topography, orientation, prevailing light, views",
+    "massing_proportion_and_composition.md: # Massing, Proportion, and Composition ## Massing: the building as a play of volumes Massing is the composition of a building's primary volumes — their size, number, and relationship — read before any"
+  ],
+  "rag_query": "circulation spine, terraced massing, hillside, concrete and glass Open-space ratio 0.96; moderately articulated surfaces (strong-edge ratio 0.032). Bright/glazed (brightness 0.62, white ratio 0.00) - transparency/daylight cue. Circulation hints: 76 dominant lines (48 vertical, 28 horizontal). Material palette: colour variety 0.166, saturation 0.07, dominant #a59f93. Composition: symmetry 0.89 (duality cue), framing 1.5:1.",
+  "analysis_method": "python-feature-pipeline (CV heuristics; no vision model)"
+}

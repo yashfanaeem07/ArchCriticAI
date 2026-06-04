@@ -1,0 +1,20 @@
+# Secrets - never commit your real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Phase 3 RAG - the vector index is a build artifact, rebuild with rag_embed.py
+data/chroma/

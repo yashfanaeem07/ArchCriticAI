@@ -1,0 +1,55 @@
+{
+  "image_file": "hillside_pavilion.png",
+  "keywords": [
+    "Transparency",
+    "Duality",
+    "Circulation"
+  ],
+  "features": [
+    "Open-space ratio 0.96; moderately articulated surfaces (strong-edge ratio 0.032).",
+    "Bright/glazed (brightness 0.62, white ratio 0.00) - transparency/daylight cue.",
+    "Circulation hints: 76 dominant lines (48 vertical, 28 horizontal).",
+    "Material palette: colour variety 0.166, saturation 0.07, dominant #a59f93.",
+    "Composition: symmetry 0.89 (duality cue), framing 1.5:1."
+  ],
+  "retrieved_principles": [
+    "circulation_and_spatial_order.md: # Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a pe",
+    "parti_and_concept.md: # Parti and Concept-Driven Design ## The parti as organising idea The *parti* (from the French *prendre parti*, \"to make a decision\") is the central organising idea of a building — the single diagram ",
+    "README.md: # Architecture principles (Phase 3 knowledge base) Drop design-theory documents here — `.pdf`, `.txt`, or `.md` files about architectural principles, spatial design, composition, circulation theory, p"
+  ],
+  "category_scores": {
+    "concept_originality": 6,
+    "spatial_hierarchy": 7,
+    "transparency_light": 4,
+    "materiality_detailing": 4,
+    "alignment_keywords": 5
+  },
+  "overall_score": 5.2,
+  "justification": "Overall 5.2/10 = mean of the five category scores. Computed by the numeric feature pipeline (CV heuristics, no vision model): a bright/glazed image (brightness 0.62) with 76 circulation lines and open-space ratio 0.96. Keyword alignment reflects how the pixels express ['Transparency', 'Duality', 'Circulation'] blended with RAG similarity 0.33. For architectural judgement, run a live vision critique (ANTHROPIC_API_KEY).",
+  "category_reasoning": {
+    "concept_originality": "Visual-complexity proxy (edge_ratio 0.032, colour_variety 0.166, 76 lines).",
+    "spatial_hierarchy": "Circulation/articulation: 76 dominant lines, strong-edge ratio 0.032.",
+    "transparency_light": "Brightness 0.62 and white ratio 0.00 as daylight/transparency proxies.",
+    "materiality_detailing": "Colour variety 0.166, saturation 0.07, detail edges 0.032.",
+    "alignment_keywords": "Keyword expression 0.71 (image vs keywords) blended with RAG similarity 0.33."
+  },
+  "numeric_features": {
+    "open_space_ratio": 0.964,
+    "brightness_mean": 0.617,
+    "white_ratio": 0.0,
+    "dark_ratio": 0.0,
+    "edge_density": 0.006,
+    "edge_ratio": 0.032,
+    "circulation_hints": 76,
+    "vertical_lines": 48,
+    "horizontal_lines": 28,
+    "colour_variety": 0.166,
+    "saturation": 0.069,
+    "symmetry": 0.895,
+    "aspect_ratio": 1.5,
+    "dominant_colour": "#a59f93",
+    "resolution": "900x600"
+  },
+  "analysis_method": "python-feature-pipeline (CV heuristics; no vision model)",
+  "rag_query": "Transparency, Duality, Circulation Open-space ratio 0.96; moderately articulated surfaces (strong-edge ratio 0.032). Bright/glazed (brightness 0.62, white ratio 0.00) - transparency/daylight cue. Circulation hints: 76 dominant lines (48 vertical, 28 horizontal). Material palette: colour variety 0.166, saturation 0.07, dominant #a59f93. Composition: symmetry 0.89 (duality cue), framing 1.5:1."
+}

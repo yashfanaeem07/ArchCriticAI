@@ -1,0 +1,56 @@
+{
+  "image_file": "hillside_pavilion.png",
+  "project_title": "hillside_pavilion",
+  "keywords": [
+    "circulation spine",
+    "terraced massing",
+    "hillside",
+    "concrete and glass"
+  ],
+  "category_scores": {
+    "concept_originality": 6,
+    "spatial_hierarchy": 7,
+    "transparency_light": 4,
+    "materiality_detailing": 4,
+    "alignment_keywords": 5
+  },
+  "overall_score": 5.2,
+  "retrieved_principles": [
+    "materiality_and_tectonics.md: the richness of the proposed surfaces. ## Common failures of materiality Materiality fails when it is decorative rather than tectonic — finishes chosen for image with no relationship to how the buildi",
+    "circulation_and_spatial_order.md: # Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a pe",
+    "materiality_and_tectonics.md: # Materiality, Detailing, and Tectonics ## Tectonics: the art of making visible how a building stands Tectonics is the expression of construction — the way a building shows how it is made and how it s",
+    "site_context_and_threshold.md: # Site, Context, and the Threshold ## Reading the site before drawing No building is conceived in a vacuum; the site is the first author of the design. Topography, orientation, prevailing light, views",
+    "massing_proportion_and_composition.md: # Massing, Proportion, and Composition ## Massing: the building as a play of volumes Massing is the composition of a building's primary volumes — their size, number, and relationship — read before any"
+  ],
+  "narrative_critique": {
+    "headline": "Terraced Spine on the Slope",
+    "concept_statement": "A circulation spine threaded through terraced concrete-and-glass volumes that step with the hillside, using the path as the organising datum from which stacked platforms descend. The parti reads as a sectional descent — movement and topography are made coincident.",
+    "category_critiques": {
+      "concept_originality": "The terraced-spine parti is legible and competently composed (edge_ratio 0.032, 76 lines), but it stays within a familiar hillside-pavilion idiom rather than pushing a singular idea — a justified 6.",
+      "spatial_hierarchy": "The strongest move: 76 dominant lines (48 vertical, 28 horizontal) register a clear circulation armature and stepped datum, and per circulation_and_spatial_order.md the path genuinely organises the plan rather than sitting as leftover space — a deserved 7.",
+      "transparency_light": "Despite the concrete-and-glass ambition, brightness 0.62 with a white ratio of 0.00 reads as opaque; the glazing is asserted but not yet luminous, leaving the daylight argument unconvincing at 4.",
+      "materiality_detailing": "Colour variety 0.166 and saturation 0.07 around a single grey #a59f93 give a monolithic but undifferentiated surface; per materiality_and_tectonics.md the finish risks being decorative rather than tectonic, with no expression of how the concrete and glass actually meet — 4.",
+      "alignment_keywords": "Terraced massing and the spine come through, but concrete-and-glass transparency is under-expressed (keyword expression 0.46, RAG similarity 0.47), so the image only half-delivers its own brief — a fair 5."
+    },
+    "strengths": [
+      "Legible circulation spine as organising armature",
+      "Clear terraced, stepped massing",
+      "High symmetry (0.89) gives compositional order",
+      "Strong open-space ratio reading the slope"
+    ],
+    "weaknesses": [
+      "Glazing reads opaque, not luminous (white ratio 0.00)",
+      "Flat, monochrome material palette (saturation 0.07)",
+      "No visible tectonic joint between concrete and glass",
+      "Parti conventional rather than distinctive"
+    ],
+    "recommendations": [
+      "Render night or section views to prove the glass as a transparent membrane, not a grey plane",
+      "Articulate the concrete-glass junction — reveal, mullion rhythm, or poche — to make the tectonics visible",
+      "Differentiate the terraces materially (texture, board-marking) so the section reads as stacked rooms, not one mass",
+      "Let the spine resolve into a threshold or terminus event rather than a uniform path"
+    ],
+    "justification": "The 5.2 overall is fair: the project earns its highest marks where circulation_and_spatial_order.md is satisfied — the spine acts as a true armature (spatial_hierarchy 7) — but is dragged down by materiality_and_tectonics.md, against which the flat grey palette (saturation 0.07) appears decorative rather than tectonic (materiality 4) and the glazing fails its own transparency premise (white ratio 0.00, transparency 4). A competent, legible parti that has not yet made its concrete-and-glass tectonics or daylight convincing."
+  },
+  "generated_by": "claude CLI (print mode)"
+}

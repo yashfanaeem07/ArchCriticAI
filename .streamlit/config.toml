@@ -1,0 +1,10 @@
+# ArchCriticAI — "Editorial Paper" theme
+# Warm paper background, near-black ink text, rust accent.
+[theme]
+base = "light"
+primaryColor = "#9c4221"              # rust ink accent (buttons, progress, focus)
+backgroundColor = "#f4f1ea"           # warm paper
+secondaryBackgroundColor = "#ebe6da"  # cards / sidebar (slightly deeper paper)
+textColor = "#2b2a27"                 # near-black ink
+linkColor = "#9c4221"
+font = "serif"

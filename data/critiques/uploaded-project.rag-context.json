@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "phase": "3-retrieval",
+  "image": null,
+  "keywords": "timber structure, open floor, river view",
+  "query": "uploaded-project timber structure, open floor, river view",
+  "collection": "architecture_principles",
+  "top_k_requested": 5,
+  "results_returned": 3,
+  "retrieved_principles": [
+    {
+      "rank": 1,
+      "source": "circulation_and_spatial_order.md",
+      "score": 0.3403,
+      "matched_terms": [],
+      "excerpt": "# Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a person takes — from approach, through thre"
+    },
+    {
+      "rank": 2,
+      "source": "parti_and_concept.md",
+      "score": 0.244,
+      "matched_terms": [],
+      "excerpt": "# Parti and Concept-Driven Design ## The parti as organising idea The *parti* (from the French *prendre parti*, \"to make a decision\") is the central organising idea of a building — the single diagram from which the rest of the design follow"
+    },
+    {
+      "rank": 3,
+      "source": "README.md",
+      "score": 0.2316,
+      "matched_terms": [],
+      "excerpt": "# Architecture principles (Phase 3 knowledge base) Drop design-theory documents here — `.pdf`, `.txt`, or `.md` files about architectural principles, spatial design, composition, circulation theory, precedent studies, etc. `archcritic/knowl"
+    }
+  ]
+}

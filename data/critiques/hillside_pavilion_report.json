@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "image": "data/uploads\\hillside_pavilion.png",
+  "image_name": "hillside_pavilion.png",
+  "project_title": "hillside_pavilion",
+  "keywords": "circulation spine, terraced massing, hillside, concrete and glass",
+  "mode": "demo",
+  "phase1_mode": "demo",
+  "phase2_mode": "demo",
+  "phase1_critique": {
+    "concept_summary": "The project reads as a 'permeable threshold' - a library that dissolves the edge between street and river. A continuous public ground floor slips beneath two stacked timber reading volumes, pulling pedestrians through the site toward the water. The parti is legible and ambitious, though the upper massing competes with the clarity of that ground-level idea.",
+    "categories": [
+      {
+        "category": "Concept",
+        "observation": "A single strong idea - a public route threading the building to the river - drives the plan and section.",
+        "strengths": [
+          "The 'threshold' concept is clear and repeated at multiple scales.",
+          "Program supports the idea: public functions sit on the route."
+        ],
+        "weaknesses": [
+          "The concept weakens at the upper floors, which feel additive."
+        ],
+        "suggestions": [
+          "Carry the threshold idea vertically - e.g. a stepped void that links the route to the upper reading rooms."
+        ],
+        "score": 8
+      },
+      {
+        "category": "Spatial Organization",
+        "observation": "Public, semi-public, and quiet zones are stacked vertically, with the noisiest uses at grade.",
+        "strengths": [
+          "Logical noise gradient from active ground floor to quiet top.",
+          "Service cores are consolidated, freeing open reading floors."
+        ],
+        "weaknesses": [
+          "The transition between public and study zones is abrupt.",
+          "No clear in-between 'lounge' space to mediate the two."
+        ],
+        "suggestions": [
+          "Insert a buffer level (cafe, exhibition) between street and study."
+        ],
+        "score": 7
+      },
+      {
+        "category": "Hierarchy",
+        "observation": "The entry and main reading room are emphasised, but secondary spaces read at a similar weight.",
+        "strengths": [
+          "The double-height entry clearly signals the main public space."
+        ],
+        "weaknesses": [
+          "Secondary rooms compete visually with primary ones.",
+          "No strong vertical landmark to orient visitors."
+        ],
+        "suggestions": [
+          "Differentiate primary vs. secondary spaces through ceiling height, light, or material change."
+        ],
+        "score": 6
+      },
+      {
+        "category": "Circulation",
+        "observation": "A single primary stair anchors movement; the public route is generous but the vertical circulation is tight.",
+        "strengths": [
+          "The ground-level route is intuitive and well-lit."
+        ],
+        "weaknesses": [
+          "One vertical core may bottleneck at peak use.",
+          "The path to upper floors is hidden from the entry."
+        ],
+        "suggestions": [
+          "Expose the main stair near the entry so vertical movement is immediately legible.",
+          "Add a secondary stair for resilience and shorter travel distances."
+        ],
+        "score": 5
+      },
+      {
+        "category": "Transparency",
+        "observation": "The ground floor is highly glazed toward the river; upper volumes are more solid timber.",
+        "strengths": [
+          "Strong solid/void contrast expresses the public vs. quiet idea.",
+          "River-facing glazing frames the key view convincingly."
+        ],
+        "weaknesses": [
+          "Street-facing elevation risks feeling closed and opaque."
+        ],
+        "suggestions": [
+          "Introduce measured openings on the street side to keep the library visually active from the approach."
+        ],
+        "score": 8
+      },
+      {
+        "category": "Massing",
+        "observation": "Two stacked rectangular volumes sit on a recessed glazed base, giving a 'floating' reading.",
+        "strengths": [
+          "The floating massing reinforces the permeable ground floor.",
+          "Proportions of the upper volumes are calm and considered."
+        ],
+        "weaknesses": [
+          "The two upper volumes read as nearly identical, flattening the composition."
+        ],
+        "suggestions": [
+          "Shift, rotate, or vary one volume to respond to the river and create a more dynamic silhouette."
+        ],
+        "score": 7
+      }
+    ],
+    "overall_strengths": [
+      "A clear, repeatable concept that ties plan, section, and program together.",
+      "Confident solid/void strategy that expresses the public idea."
+    ],
+    "overall_weaknesses": [
+      "Vertical circulation and hierarchy need development to match the strength of the ground-floor concept.",
+      "Upper massing is too repetitive and slightly undercuts the parti."
+    ],
+    "overall_score": 6.8
+  },
+  "phase3_retrieval": {
+    "query": "hillside_pavilion circulation spine, terraced massing, hillside, concrete and glass",
+    "top_k_requested": 5,
+    "results_returned": 3,
+    "principles": [
+      {
+        "rank": 1,
+        "source": "circulation_and_spatial_order.md",
+        "score": 0.4466,
+        "matched_terms": [],
+        "excerpt": "# Circulation, Hierarchy, and Spatial Order ## Circulation as the armature of the plan Circulation is not leftover space between rooms; it is the armature on which the plan is organised. The path a person takes — from approach, through thre"
+      },
+      {
+        "rank": 2,
+        "source": "parti_and_concept.md",
+        "score": 0.2357,
+        "matched_terms": [],
+        "excerpt": "# Parti and Concept-Driven Design ## The parti as organising idea The *parti* (from the French *prendre parti*, \"to make a decision\") is the central organising idea of a building — the single diagram from which the rest of the design follow"
+      },
+      {
+        "rank": 3,
+        "source": "README.md",
+        "score": 0.1747,
+        "matched_terms": [],
+        "excerpt": "# Architecture principles (Phase 3 knowledge base) Drop design-theory documents here — `.pdf`, `.txt`, or `.md` files about architectural principles, spatial design, composition, circulation theory, precedent studies, etc. `archcritic/knowl"
+      }
+    ]
+  },
+  "phase2_presentation": {
+    "slides": [
+      {
+        "heading": "Overview",
+        "bullets": [
+          "Overall score: 6.8 / 10",
+          "Category scores: Concept 8, Spatial Organization 7, Hierarchy 6, Circulation 5, Transparency 8, Massing 7",
+          "The project reads as a 'permeable threshold'."
+        ]
+      },
+      {
+        "heading": "Design Intent",
+        "concept_statement": "A continuous public ground floor slips beneath two stacked timber reading volumes, turning the library into a permeable threshold that draws the city through to the river.",
+        "body": "The project reads as a 'permeable threshold' - a library that dissolves the edge between street and river. A continuous public ground floor slips beneath two stacked timber reading volumes, pulling pedestrians through the site toward the water. The parti is legible and ambitious, though the upper massing competes with the clarity of that ground-level idea.",
+        "design_moves": [
+          "Lift the reading volumes onto a recessed glazed base so the mass floats.",
+          "Thread a continuous public route from street to river beneath the building.",
+          "Stack programme along a noise gradient, quietest at the top.",
+          "Express the concept through a deliberate solid/void, timber-on-glass contrast.",
+          "Carry the threshold vertically with a stepped void linking route to reading rooms."
+        ]
+      },
+      {
+        "heading": "Strengths & Weaknesses",
+        "strengths": [
+          "A clear, repeatable concept that ties plan, section, and program together.",
+          "Confident solid/void strategy that expresses the public idea."
+        ],
+        "weaknesses": [
+          "Vertical circulation and hierarchy need development to match the strength of the ground-floor concept.",
+          "Upper massing is too repetitive and slightly undercuts the parti."
+        ]
+      },
+      {
+        "heading": "Jury Defense",
+        "points": [
+          {
+            "topic": "Circulation",
+            "question": "You rely on a single vertical core - what happens at peak use, and is that not a fire-egress problem?",
+            "defense": "It is the project's weakest point and I own that. The single core kept the reading floors open, but it under-serves the building. My resolution is a second stair on the river side that doubles as egress and shortens travel distances, while exposing the primary stair at the entry so vertical movement becomes part of the public route rather than a bottleneck.",
+            "follow_up": "Where exactly does the second core land in plan, and what does it cost you?"
+          },
+          {
+            "topic": "Massing",
+            "question": "The two upper volumes read as nearly identical - isn't the massing just repetitive rather than composed?",
+            "defense": "The calm, matched proportions were deliberate, to keep the timber mass quiet against the active base. But the panel is right that it flattens the silhouette. Shifting and slightly rotating the upper volume to align with the river view would give the composition a figure without losing the floating reading.",
+            "follow_up": "If you rotate it, how do you keep the floor plates working inside?"
+          },
+          {
+            "topic": "Transparency",
+            "question": "The street elevation looks closed - does the library turn its back on the city it claims to serve?",
+            "defense": "The solid street face protects quiet reading and drives people toward the river, which is the concept. That said, a fully opaque edge undercuts the 'permeable' claim, so I would introduce measured openings at eye level - enough to keep the library legible and active from the approach without diluting the solid/void strategy.",
+            "follow_up": "What ground-floor programme animates that street edge?"
+          },
+          {
+            "topic": "Hierarchy",
+            "question": "Beyond the entry, your spaces read at a similar weight - where is the spatial hierarchy?",
+            "defense": "The double-height entry establishes the primary space, but I agree the secondary rooms compete with it. I would differentiate them through ceiling height, top-light, and a material shift so the main reading room is unmistakably the heart, with a vertical void as a datum to orient visitors.",
+            "follow_up": "Which space, specifically, becomes the project's landmark?"
+          }
+        ]
+      }
+    ],
+    "narrative": {
+      "headline": "Crossing to the Water: A Library as Public Threshold",
+      "concept_statement": "A continuous public ground floor slips beneath two stacked timber reading volumes, turning the library into a permeable threshold that draws the city through to the river.",
+      "narrative": "The Riverside Community Library begins not with a building but with a route. Reading the site as a seam between the animated street and the quiet riverfront, the project refuses to sit as an object on its plot and instead behaves as a piece of the public realm - a passage the city can move through on its way to the water.\n\nFrom that reading comes the parti. A generous, glazed ground floor dissolves the building's edge and carries pedestrians beneath two stacked timber volumes that hold the reading rooms. The recessed base reads as void, so the timber mass appears to float, and the resulting solid-to-void contrast becomes the project's argument made physical: the public and porous below, the quiet and contemplative above.\n\nProgramme follows a noise gradient. The most public uses anchor the route at grade, while study spaces climb away from the activity into progressively calmer rooms. Consolidated service cores free the upper floors to remain open and light, and a double-height entry frames the river as both arrival and destination.\n\nThe project's next chapter is vertical. Today the procession upward is understated; the resolution is to expose the primary stair at the entry and let a stepped void carry the threshold idea through the section, so the climb to the reading rooms becomes part of the same public crossing that defines the ground - and the building keeps its single, clear idea from plan to section to material.",
+      "design_moves": [
+        "Lift the reading volumes onto a recessed glazed base so the mass floats.",
+        "Thread a continuous public route from street to river beneath the building.",
+        "Stack programme along a noise gradient, quietest at the top.",
+        "Express the concept through a deliberate solid/void, timber-on-glass contrast.",
+        "Carry the threshold vertically with a stepped void linking route to reading rooms."
+      ]
+    }
+  }
+}
